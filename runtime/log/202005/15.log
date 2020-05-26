@@ -1,0 +1,72 @@
+---------------------------------------------------------------
+[ 2020-05-15T09:57:46+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c?addtabs=1
+[ error ] [0]语法解析错误: syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+---------------------------------------------------------------
+[ 2020-05-15T09:58:31+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c
+[ error ] [0]语法解析错误: syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+---------------------------------------------------------------
+[ 2020-05-15T09:58:36+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c?addtabs=1
+[ error ] [0]语法解析错误: syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+---------------------------------------------------------------
+[ 2020-05-15T09:59:59+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c?ref=addtabs
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+---------------------------------------------------------------
+[ 2020-05-15T10:00:01+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c?ref=addtabs
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+---------------------------------------------------------------
+[ 2020-05-15T10:00:16+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c?addtabs=1
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+---------------------------------------------------------------
+[ 2020-05-15T10:00:29+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c?ref=addtabs
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+---------------------------------------------------------------
+[ 2020-05-15T10:00:30+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c?ref=addtabs
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+---------------------------------------------------------------
+[ 2020-05-15T10:00:37+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c?addtabs=1
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+---------------------------------------------------------------
+[ 2020-05-15T10:00:47+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c?ref=addtabs
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+---------------------------------------------------------------
+[ 2020-05-15T10:01:08+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c?addtabs=1
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+---------------------------------------------------------------
+[ 2020-05-15T10:07:31+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c?ref=addtabs
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+---------------------------------------------------------------
+[ 2020-05-15T10:07:41+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c?addtabs=1
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+---------------------------------------------------------------
+[ 2020-05-15T10:11:45+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c?ref=addtabs
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+---------------------------------------------------------------
+[ 2020-05-15T10:11:58+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c?addtabs=1
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+---------------------------------------------------------------
+[ 2020-05-15T10:12:57+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c?ref=addtabs
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+---------------------------------------------------------------
+[ 2020-05-15T10:12:58+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c?ref=addtabs
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+---------------------------------------------------------------
+[ 2020-05-15T10:13:21+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c?addtabs=1
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+---------------------------------------------------------------
+[ 2020-05-15T10:14:35+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c?addtabs=1
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+---------------------------------------------------------------
+[ 2020-05-15T10:14:59+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c?addtabs=1
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+---------------------------------------------------------------
+[ 2020-05-15T10:22:31+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c?ref=addtabs
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+---------------------------------------------------------------
+[ 2020-05-15T10:48:48+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c?addtabs=1
+[ error ] [0]语法解析错误: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+---------------------------------------------------------------
+[ 2020-05-15T10:50:31+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c/index?addtabs=1&sort=UKID%2CUK01&order=desc%2Casc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589511031366
+[ error ] [0]method not exist:think\db\Query->getCSTATUSList
+---------------------------------------------------------------
+[ 2020-05-15T10:50:50+08:00 ] 127.0.0.1 GET www.qw.com/JCeVuFqDar.php/f57k12c/index?addtabs=1&sort=UKID%2CUK01&order=desc%2Casc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589511031367
+[ error ] [0]method not exist:think\db\Query->getCSTATUSList

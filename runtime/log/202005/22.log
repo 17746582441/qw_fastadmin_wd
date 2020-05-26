@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2020-05-22T17:16:26+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11c?ref=addtabs
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+---------------------------------------------------------------
+[ 2020-05-22T17:17:41+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)

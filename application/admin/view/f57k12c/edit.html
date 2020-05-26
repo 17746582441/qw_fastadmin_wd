@@ -1,0 +1,190 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Ukid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-UKID" class="form-control" name="row[UKID]" type="number" value="{$row.UKID|htmlentities}" disabled = "disabled">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Alph')}:</label>
+        <div class="col-xs-12 col-sm-2">
+            <input id="c-ALPH" class="form-control" name="row[ALPH]" type="text" value="{$row.ALPH|htmlentities}" disabled = "disabled">
+        </div>
+    <!-- </div>
+    <div class="form-group"> -->
+        <label class="control-label col-xs-12 col-sm-2">{:__('E58MBMB')}:</label>
+        <div class="col-xs-12 col-sm-4">
+            <input id="c-E58MBMB" class="form-control" name="row[E58MBMB]" type="text" value="{$row.E58MBMB|htmlentities}" disabled = "disabled">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('A030')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-A030" class="form-control" name="row[A030]" type="text" value="{$row.A030|htmlentities}" disabled = "disabled">
+        </div>
+    </div>
+
+
+
+    <div class="form-group">
+    </div>
+    <div class="form-group">
+    </div>
+
+
+    <!-- <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Uk02')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-UK02" class="form-control" name="row[UK02]" type="number" value="{$row.UK02|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Uk03')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-UK03" class="form-control" name="row[UK03]" type="number" value="{$row.UK03|htmlentities}">
+        </div>
+    </div> -->
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Ctype')}:</label>
+        <div class="col-xs-12 col-sm-3">
+                        
+            <select  id="c-CTYPE" class="form-control selectpicker" name="row[CTYPE]">
+                {foreach name="ctypeList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.CTYPE"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    <!-- </div>
+    <div class="form-group"> -->
+        <label class="control-label col-xs-12 col-sm-2">{:__('Subctype')}:</label>
+        <div class="col-xs-12 col-sm-3">
+                        
+            <select  id="c-SubCTYPE" class="form-control selectpicker" name="row[SubCTYPE]">
+                {foreach name="subctypeList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.SubCTYPE"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Type1')}:</label>
+        <div class="col-xs-12 col-sm-3">
+                        
+            <select  id="c-TYPE1" class="form-control selectpicker" name="row[TYPE1]">
+                {foreach name="type1List" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.TYPE1"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    <!-- </div>
+    <div class="form-group"> -->
+        <label class="control-label col-xs-12 col-sm-2">{:__('Type2')}:</label>
+        <div class="col-xs-12 col-sm-3">
+                        
+            <select  id="c-TYPE2" class="form-control selectpicker" name="row[TYPE2]">
+                {foreach name="type2List" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.TYPE2"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+
+
+    <!-- <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Club')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-CLUB" class="form-control" name="row[CLUB]" type="text" value="{$row.CLUB|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Step')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-STEP" class="form-control" name="row[STEP]" type="text" value="{$row.STEP|htmlentities}">
+        </div>
+    </div> -->
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Solution')}:</label>
+        <div class="col-xs-12 col-sm-6">
+                        
+            <select  id="c-Solution" class="form-control selectpicker" multiple="" name="row[Solution][]">
+                {foreach name="solutionList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.Solution"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Comments')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-Comments" class="form-control" name="row[Comments]" type="text" value="{$row.Comments|htmlentities}">
+        </div>
+    </div>
+
+    <!-- <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Passcondition')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-PassCondition" class="form-control" name="row[PassCondition]" type="number" value="{$row.PassCondition|htmlentities}">
+        </div>
+    </div> -->
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Processstatus')}:</label>
+        <div class="col-xs-12 col-sm-8" >
+            
+            <div class="radio">
+            {foreach name="processstatusList" item="vo"}
+            <label for="row[ProcessStatus]-{$key}"><input id="row[ProcessStatus]-{$key}" name="row[ProcessStatus]" type="radio" value="{$key}" disabled = "disabled" {in name="key" value="$row.ProcessStatus"}checked{/in} /> {$vo}</label> 
+            {/foreach}
+            </div>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Receiveon')}:</label>
+        <div class="col-xs-12 col-sm-3">
+            <input id="c-ReceiveOn" class="form-control datetimepicker" disabled = "disabled" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[ReceiveOn]" type="text" value="{$row.ReceiveOn}">
+        </div>
+    <!-- </div>
+    <div class="form-group"> -->
+        <label class="control-label col-xs-12 col-sm-2">{:__('Autopassmin')}:</label>
+        <div class="col-xs-12 col-sm-2">
+            <input id="c-AutoPassMin" class="form-control" name="row[AutoPassMin]" type="number" disabled = "disabled" value="{$row.AutoPassMin|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Starton')}:</label>
+        <div class="col-xs-12 col-sm-3">
+            <input id="c-StartOn" class="form-control datetimepicker" disabled = "disabled" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[StartOn]" type="text" value="{$row.StartOn}">
+        </div>
+    <!-- </div>
+    <div class="form-group"> -->
+        <label class="control-label col-xs-12 col-sm-2">{:__('Completionon')}:</label>
+        <div class="col-xs-12 col-sm-3">
+            <input id="c-CompletionOn" class="form-control datetimepicker" disabled = "disabled" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[CompletionOn]" type="text" value="{$row.CompletionOn}">
+        </div>
+    </div>
+    <!-- <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Createon')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-CreateOn" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[CreateOn]" type="text" value="{$row.CreateOn}">
+        </div>
+    </div> -->
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+            <button type="forward" class="btn btn-success btn-embossed">{:__('forward')}</button>
+        </div>
+    </div>
+</form>

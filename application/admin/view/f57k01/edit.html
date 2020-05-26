@@ -1,0 +1,106 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Ctype')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-CTYPE" class="form-control selectpicker" name="row[CTYPE]">
+                {foreach name="ctypeList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.CTYPE"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Subctype')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-SubCType" class="form-control selectpicker" name="row[SubCType]">
+                {foreach name="subctypeList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.SubCType"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Type1')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-TYPE1" class="form-control selectpicker" name="row[TYPE1]">
+                {foreach name="type1List" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.TYPE1"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Type2')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                        
+            <select  id="c-TYPE2" class="form-control selectpicker" name="row[TYPE2]">
+                {foreach name="type2List" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.TYPE2"}selected{/in}>{$vo}</option>
+                {/foreach}
+            </select>
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Step')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-STEP" class="form-control" name="row[STEP]" type="text" value="{$row.STEP|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Dl01')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-DL01" class="form-control" name="row[DL01]" type="text" value="{$row.DL01|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Pos')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-POS" class="form-control" name="row[POS]" type="text" value="{$row.POS|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Passcondition')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-PassCondition" class="form-control" name="row[PassCondition]" type="number" value="{$row.PassCondition|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Memo')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-Memo" class="form-control" name="row[Memo]" type="text" value="{$row.Memo|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Efff')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-EFFF" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[EFFF]" type="text" value="{$row.EFFF}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Efft')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-EFFT" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[EFFT]" type="text" value="{$row.EFFT}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Autopassmin')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-AutoPassMin" class="form-control" name="row[AutoPassMin]" type="number" value="{$row.AutoPassMin|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

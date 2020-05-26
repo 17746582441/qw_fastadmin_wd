@@ -1,0 +1,114 @@
+---------------------------------------------------------------
+[ 2020-05-11T10:32:53+08:00 ] 127.0.0.1 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k12a/index?addtabs=1&sort=UK01&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589163182951
+[ error ] [64]Cannot redeclare app\common\controller\Backend::$dataLimit
+---------------------------------------------------------------
+[ 2020-05-11T10:32:55+08:00 ] 127.0.0.1 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k12a/index?addtabs=1&sort=UK01&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589163182952
+[ error ] [64]Cannot redeclare app\common\controller\Backend::$dataLimit
+---------------------------------------------------------------
+[ 2020-05-11T10:32:59+08:00 ] 127.0.0.1 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k12a/index?addtabs=1&sort=UK01&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589163182953
+[ error ] [64]Cannot redeclare app\common\controller\Backend::$dataLimit
+---------------------------------------------------------------
+[ 2020-05-11T10:33:04+08:00 ] 127.0.0.1 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589163165365
+[ error ] [64]Cannot redeclare app\common\controller\Backend::$dataLimit
+---------------------------------------------------------------
+[ 2020-05-11T10:33:10+08:00 ] 127.0.0.1 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589163165366
+[ error ] [64]Cannot redeclare app\common\controller\Backend::$dataLimit
+---------------------------------------------------------------
+[ 2020-05-11T10:33:31+08:00 ] 127.0.0.1 GET www.qwinfo.com.cn/qNyrbjYaSg.php/general/profile/index?sort=id&order=desc&offset=0&limit=10&_=1589162837124
+[ error ] [64]Cannot redeclare app\common\controller\Backend::$dataLimit
+---------------------------------------------------------------
+[ 2020-05-11T10:33:37+08:00 ] 127.0.0.1 GET www.qwinfo.com.cn/qNyrbjYaSg.php/index/logout
+[ error ] [64]Cannot redeclare app\common\controller\Backend::$dataLimit
+---------------------------------------------------------------
+[ 2020-05-11T10:34:01+08:00 ] 127.0.0.1 GET www.qwinfo.com.cn/qNyrbjYaSg.php
+[ error ] [64]Cannot redeclare app\common\controller\Backend::$dataLimit
+---------------------------------------------------------------
+[ 2020-05-11T10:34:30+08:00 ] 127.0.0.1 GET www.qwinfo.com.cn/qNyrbjYaSg.php
+[ error ] [64]Cannot redeclare app\common\controller\Backend::$dataLimit
+---------------------------------------------------------------
+[ 2020-05-11T10:34:39+08:00 ] 127.0.0.1 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11?ref=addtabs
+[ error ] [64]Cannot redeclare app\common\controller\Backend::$dataLimit
+---------------------------------------------------------------
+[ 2020-05-11T10:37:24+08:00 ] 127.0.0.1 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k12a/index?addtabs=1
+[ error ] [64]Cannot redeclare app\common\controller\Backend::$dataLimit
+---------------------------------------------------------------
+[ 2020-05-11T10:39:50+08:00 ] 127.0.0.1 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11?ref=addtabs
+[ error ] [64]Cannot redeclare app\common\controller\Backend::$dataLimit
+---------------------------------------------------------------
+[ 2020-05-11T10:43:13+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589164994059
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T10:43:17+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589164994060
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T10:43:29+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589164994061
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T10:44:47+08:00 ] 127.0.0.1 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k12a/edit/ids/6?dialog=1
+[ error ] [0]类的属性不存在:app\admin\model\F57k12a->HandledByAN8
+---------------------------------------------------------------
+[ 2020-05-11T11:11:20+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589164994062
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T11:18:27+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589167089801
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T11:18:28+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589167089802
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T11:36:16+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589168177412
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T11:36:42+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589168177413
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T11:37:07+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589168227690
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T11:41:46+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589168227691
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T11:42:22+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589168542780
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T11:43:24+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589168542781
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T11:44:15+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589168542782
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T11:44:28+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589168542783
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T11:44:38+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589168542784
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T11:49:24+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589168965514
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T11:49:41+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589168981774
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T13:55:00+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589176500874
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T13:55:13+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589176513958
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T13:55:39+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589176540505
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T13:59:37+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589176778266
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T14:00:33+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589176833906
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T14:00:41+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589176833907
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T14:00:48+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589176833908
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
+---------------------------------------------------------------
+[ 2020-05-11T14:00:54+08:00 ] 116.228.40.214 GET www.qwinfo.com.cn/qNyrbjYaSg.php/f57k11/index?addtabs=1&sort=UKID&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1589176833909
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'admin_id' in 'where clause'
